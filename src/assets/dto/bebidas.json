@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "uri": "assets/img/Bebidas/beb1.png",
+        "name": "Champurrado",
+        "price": 250
+    },
+    {
+        "id": 2,
+        "uri": "assets/img/Bebidas/beb2.png",
+        "name": "Atole de Arroz con Leche",
+        "price": 25
+    },
+    {
+        "id": 3,
+        "uri": "assets/img/Bebidas/beb1.png",
+        "name": "Chocolate Caliente",
+        "price": 10
+    },
+    {
+        "id": 4,
+        "uri": "assets/img/Bebidas/beb1.png",
+        "name": "Café Negro",
+        "price": 35
+    }
+]

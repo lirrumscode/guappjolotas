@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "uri": "assets/img/Bebidas/Sabores/champu.png",
+        "name": "Bebida de Champu"
+    },
+    {
+        "id": 2,
+        "uri": "assets/img/Bebidas/Sabores/arroz.png",
+        "name": "Arroz con leche"
+    },
+    {
+        "id": 3,
+        "uri": "assets/img/Bebidas/Sabores/choco.png",
+        "name": "Bebida de Chocolate"
+    },
+    {
+        "id": 4,
+        "uri": "assets/img/Bebidas/Sabores/cafe.png",
+        "name": "Bebida de Café"
+    }
+]

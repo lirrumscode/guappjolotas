@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=ubports
+Exec=webapp-container --app-id="ubports.lina" $@ www/index.html
+Icon=assets/logo.svg
+Terminal=false
+Type=Application
+X-Ubuntu-Touch=true

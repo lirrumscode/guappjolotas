@@ -1,0 +1,30 @@
+<ion-header class="ion-no-border">
+  <ion-toolbar color="light">
+    <ion-buttons slot="start">
+      <ion-back-button color="dark"></ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" color="light">
+  <ion-grid>
+    <ion-row *ngFor="let items of show()">
+      <ion-col size="4">
+        <img [src]="items.uri" alt="img" />
+      </ion-col>
+      <ion-col size="4">
+        <p class="name">{{ items.name }}</p>
+        <p class="quantity">X{{ items.quantity }} + {{ items.sabor }}</p>
+      </ion-col>
+      <ion-col size="4">
+        <p class="price">$ {{ items.quantity * items.price }} MXN</p>
+      </ion-col>
+
+      <div class="containt">
+        <ion-button shape="round" class="btn-pay" (click)="viewData()"
+          ><span>Pagar</span></ion-button
+        >
+      </div>
+    </ion-row>
+  </ion-grid>
+</ion-content>

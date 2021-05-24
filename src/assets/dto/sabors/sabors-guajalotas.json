@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "uri": "assets/img/Guajalotas/Sabores/sabor-verde.png",
+        "name": "Verde"
+    },
+    {
+        "id": 2,
+        "uri": "assets/img/Guajalotas/Sabores/sabor-mole.png",
+        "name": "Mole"
+    },
+    {
+        "id": 3,
+        "uri": "assets/img/Guajalotas/Sabores/sabor-rajas.png",
+        "name": "Rajas"
+    },
+    {
+        "id": 4,
+        "uri": "assets/img/Guajalotas/Sabores/sabor-pina.png",
+        "name": "Piña"
+    },
+    {
+        "id": 5,
+        "uri": "assets/img/Guajalotas/Sabores/sabor-pasas.png",
+        "name": "Pasas"
+    },
+    {
+        "id": 6,
+        "uri": "assets/img/Guajalotas/Sabores/sabor-guayaba.png",
+        "name": "Guayaba"
+    }
+]

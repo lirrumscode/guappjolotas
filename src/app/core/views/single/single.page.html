@@ -1,0 +1,62 @@
+<ion-header class="ion-no-border">
+  <ion-toolbar color="light">
+    <ion-icon
+      name="cart-outline"
+      class="icon-header"
+      slot="end"
+      (click)="goToCart()"
+    ></ion-icon>
+    <ion-buttons slot="start">
+      <ion-back-button color="dark"></ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" color="light">
+  <ion-grid>
+    <ion-row>
+      <ion-col size="12">
+        <img [src]="dataObject.uri" alt="img" class="img" />
+        <h1 class="title">{{ dataObject.slug }}</h1>
+        <p class="price">$ {{ dataObject.price | number }} MXN</p>
+        <div class="container-counter">
+          <div class="counter-div">
+            <div class="less">
+              <ion-icon
+                name="remove-circle-outline"
+                (click)="lessCounter()"
+              ></ion-icon>
+            </div>
+            <div class="counter">
+              <span class="contador">{{ counter }}</span>
+            </div>
+            <div class="more">
+              <ion-icon
+                name="add-circle-outline"
+                (click)="moreCounter()"
+              ></ion-icon>
+            </div>
+          </div>
+        </div>
+        <ion-row class="div-sabors">
+          <ion-col size="4" *ngFor="let items of saborsGuajalotas">
+            <a class="selected-img" (click)="selectedSabors(items)">
+              <img [src]="items.uri" alt="img" />
+            </a>
+          </ion-col>
+        </ion-row>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>
+<ion-footer class="ion-no-border">
+  <div class="container">
+    <ion-button
+      shape="round"
+      mode="ios"
+      (click)="addCartData(dataObject)"
+      class="btn-footer"
+      ><span>Agregar al carrito</span></ion-button
+    >
+  </div>
+</ion-footer>

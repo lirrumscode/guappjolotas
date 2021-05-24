@@ -1,0 +1,128 @@
+.icon-header {
+  font-size: 35px;
+  float: right;
+  position: relative;
+  top: 25px;
+  right: 20px;
+  color: #808080;
+}
+.img-logo {
+  padding-left: 10px;
+  width: 50%;
+}
+ion-grid {
+  .title {
+    text-align: left;
+    color: #000;
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: 0px;
+    padding-left: 20px;
+  }
+  ion-searchbar {
+    --background: #e7e7e7;
+  }
+.sec-list{
+  width: 100%;
+  padding: 10px;
+}
+  ion-segment {
+    --background: #f2f2f2;
+    margin-bottom: 20px;
+    width: 100%;
+    ion-segment-button {
+      --color: #808080;
+      --color-checked: #ff7a64;
+      --border-color: #ff7a64;
+      --indicator-color: #ff7a64;
+      ion-label {
+        font-size: 15px;
+        font-weight: bold;
+      }
+    }
+  }
+}
+ion-list{
+background:#f2f2f2 !important;
+}
+#sec-guajalotas{
+  width: 100%;
+  background: #fff;
+  border-radius: 15px;
+  height: 115px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  .sec-img{
+    width: 100%;
+    position: absolute;
+    top: 8px;
+  }
+  .sec-name{
+    color: #000;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 25px;
+  }
+  .sec-price{
+    color: #ff7a64;
+    font-weight: 300;
+    font-size: 16px;
+    margin-top: 0px;
+  }
+}
+#sec-bebidas{
+  width: 100%;
+  background: #fff;
+  border-radius: 15px;
+  height: 115px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  .sec-img{
+    width: 92%;
+    position: absolute;
+    top: 17px;
+  }
+  .sec-name{
+    color: #000;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 22px;
+  }
+  .sec-name:nth-child(2){
+    margin-top: 30px;
+  }
+  .sec-price{
+    color: #ff7a64;
+    font-weight: 300;
+    font-size: 16px;
+    margin-top: 0px;
+  }
+}
+#sec-tamales{
+  width: 100%;
+  background: #fff;
+  border-radius: 15px;
+  height: 115px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  .sec-img{
+    width: 92%;
+    position: absolute;
+    top: 17px;
+  }
+  .sec-name{
+    color: #000;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 22px;
+  }
+  .sec-name:nth-child(2){
+    margin-top: 30px;
+  }
+  .sec-price{
+    color: #ff7a64;
+    font-weight: 300;
+    font-size: 16px;
+    margin-top: 0px;
+  }
+}

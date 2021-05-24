@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "uri": "assets/img/Guajalotas/img1.png",
+        "name": "Verde",
+        "slug":"Guajalota de Tamal Verde",
+        "price": 250
+    },
+    {
+        "id": 2,
+        "uri": "assets/img/Guajalotas/img2.png",
+        "name": "Mole",
+        "slug":"Guajalota de Tamal Mole",
+        "price": 25
+    },
+    {
+        "id": 3,
+        "uri": "assets/img/Guajalotas/img3.png",
+        "name": "Guayaba",
+        "slug":"Guajalota de Tamal Guayaba",
+        "price": 10
+    },
+    {
+        "id": 4,
+        "uri": "assets/img/Guajalotas/img4.png",
+        "name": "Piña",
+        "slug":"Guajalota de Tamal Piña",
+        "price": 35
+    },
+    {
+        "id": 5,
+        "uri": "assets/img/Guajalotas/img5.png",
+        "name": "Pasas",
+        "slug":"Guajalota de Tamal Pasas",
+        "price": 12
+    }
+]
