@@ -1,4 +1,4 @@
-# GuAppjolotas
+# RecetApp
 
 _This little project is about a serie of projects for free use to **UBports** for the role:
 > **Mobile developer,** and it's inspire in the project:
