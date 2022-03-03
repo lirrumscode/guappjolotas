@@ -1,9 +1,9 @@
-# RecetApp
+# GuappjolotasApp
 
-_This little project is about a serie of projects for free use to **UBports** for the role:
-> **Mobile developer,** and it's inspire in the project:
+_This little project is about a serie of projects for the company **LeonidasEsteban** for the role:
+> **Frontend web developer,** and it's inspire in the project:
 <br>
-<img src="https://figmaelements.com/wp-content/uploads/2020/12/food-recipe-app.png" alt="img">
+<img src="https://platform-api-production.s3.amazonaws.com/projects/thumbs/454407cf-cbc4-465e-951f-efe517053e07/Thumbnail-guappjolotas.jpg" alt="img">
 <br>
 
 ## Installation and initialization 🔧
